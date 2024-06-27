@@ -11,8 +11,9 @@ Note: The VPC/network configurations are located in a separate directory.
 
 ## Fix and deploy the VPC along with the rest of the networking configuration:
 Before moving to the application setup, ensure the VPC and associated network configurations are fixed and correctly provisioned.
+Ensure that the setup allows for instances setup in the private subnets to have access to the public internet.
 
-You are allowed and encouraged to run terraform apply for the VPC to validate your fixes.
+You are allowed and encouraged to run terrafrom plans and terraform apply for the VPC to validate your fixes.
 
 ## Fix and deploy the 3-Tier Application Setup:
 After ensuring the VPC is correctly provisioned, move on to fixing the 3-tier application setup.
