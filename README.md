@@ -27,9 +27,6 @@ The RDS instance and the ECS application should be provisioned within private su
 Your final Terraform code should be ready for deployment.
 When we run terraform apply, the entire infrastructure, including VPC, ALB, ECS with WordPress, and RDS with MySQL, should spin up correctly without errors.
 
-# AWS Console
-https://zavamed-engineering-interviews.signin.aws.amazon.com/console
-
 
 ## Evaluation Criteria:
 Quality of the fixed code
